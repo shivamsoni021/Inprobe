@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rlogo"
+        android:label="Engineering Notes"
+        android:roundIcon="@drawable/rlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+             android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7681178287507851~6633198367">
+        </meta-data>
+
+        <activity android:name=".SplashActivity"
+            android:theme="@style/splashTheme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter
+            ></activity>
+        <activity android:name=".ListsActivity" />
+        <activity android:name=".DownloadActivity" />
+        <activity android:name=".ThirdYearActivity" />
+        <activity android:name=".SecondYearActivity" />
+        <activity android:name=".FirstYearActivity" />
+        <activity android:name=".ItActivity" />
+        <activity android:name=".CsActivity" />
+        <activity android:name=".BranchesActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>

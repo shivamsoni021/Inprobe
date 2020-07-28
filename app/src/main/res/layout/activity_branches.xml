@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BranchesActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/titlebg"
+            android:minHeight="?attr/actionBarSize"
+            android:paddingBottom="2dp"
+            android:theme="?attr/actionBarTheme"
+            app:contentInsetStart="0dp"
+            app:titleMargin="10dp"
+
+            >
+
+
+            <Button
+                android:id="@+id/signOutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="end"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/oval"
+                android:text="Sign Out"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="319dp"
+                tools:layout_editor_absoluteY="4dp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/welcomeUserTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:textColor="#8858f8"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp">
+
+            <Button
+                android:id="@+id/csButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:background="@drawable/branches_buttons"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/_14sdp"
+                android:text="@string/cs"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/itButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/it_button"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="@dimen/_28sdp"
+                android:paddingRight="@dimen/_65sdp"
+                android:text="@string/it"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
