@@ -58,7 +58,7 @@
             android:background="@drawable/year_four"
             android:fontFamily="sans-serif"
             android:paddingRight="@dimen/_150sdp"
-            android:text="@string/s1"
+            android:text="First Year"
             android:textColor="@android:color/white"
             android:textSize="@dimen/_18ssp"
             android:textStyle="bold" />
@@ -71,7 +71,7 @@
             android:background="@drawable/year_two"
             android:fontFamily="sans-serif"
             android:paddingRight="@dimen/_150sdp"
-            android:text="@string/s2"
+            android:text="Second Year"
             android:textColor="@android:color/white"
             android:textSize="@dimen/_18ssp"
             android:textStyle="bold" />
@@ -84,7 +84,7 @@
             android:background="@drawable/year_three"
             android:fontFamily="sans-serif"
             android:paddingRight="@dimen/_150sdp"
-            android:text="@string/s3"
+            android:text="Third Year"
             android:textColor="@android:color/white"
             android:textSize="@dimen/_18ssp"
             android:textStyle="bold" />
