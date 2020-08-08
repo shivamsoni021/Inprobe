@@ -36,8 +36,6 @@ public class ListsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lists);
         setTitle("Notes List");
         mAdView = (AdView) findViewById(R.id.ffAdView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         list = (ListView)findViewById(R.id.subjectsList);
         ltoolbar = (Toolbar)findViewById(R.id.ltoolbar);
